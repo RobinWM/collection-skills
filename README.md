@@ -53,3 +53,9 @@ impeccable style
 ```bash
 npx skills add pbakaus/impeccable
 ```
+
+seo-audit
+
+```bash
+npx skills add https://github.com/coreyhaines31/marketingskills --skill seo-audit
+```
