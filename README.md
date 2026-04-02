@@ -36,3 +36,8 @@ skill-creator
 npx skills add https://github.com/anthropics/skills --skill skill-creator
 ```
 
+remotion
+
+```bash
+npx skills add https://github.com/remotion-dev/skills --skill remotion-best-practices
+```
