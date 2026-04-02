@@ -697,6 +697,69 @@
       "skillFolderHash": "484dbdd960c714d80b5ddca7056cb788b0afbfe1",
       "installedAt": "2026-04-02T14:29:45.438Z",
       "updatedAt": "2026-04-02T14:29:45.438Z"
+    },
+    "frontend-dev": {
+      "source": "minimax-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/minimax-ai/skills.git",
+      "skillPath": "skills/frontend-dev/SKILL.md",
+      "skillFolderHash": "781a0b64edb09961fbcf26b95af2b9afbe008387",
+      "installedAt": "2026-04-02T14:55:53.872Z",
+      "updatedAt": "2026-04-02T14:55:53.872Z"
+    },
+    "fullstack-dev": {
+      "source": "minimax-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/minimax-ai/skills.git",
+      "skillPath": "skills/fullstack-dev/SKILL.md",
+      "skillFolderHash": "3e9efa276da42981df8fe3128ed04919ae7f0929",
+      "installedAt": "2026-04-02T14:55:54.637Z",
+      "updatedAt": "2026-04-02T14:55:54.637Z"
+    },
+    "minimax-docx": {
+      "source": "minimax-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/minimax-ai/skills.git",
+      "skillPath": "skills/minimax-docx/SKILL.md",
+      "skillFolderHash": "e55cc73859c0fd9bcd6507f062eedca0f470a7ed",
+      "installedAt": "2026-04-02T14:55:55.833Z",
+      "updatedAt": "2026-04-02T14:55:55.833Z"
+    },
+    "minimax-multimodal-toolkit": {
+      "source": "minimax-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/minimax-ai/skills.git",
+      "skillPath": "skills/minimax-multimodal-toolkit/SKILL.md",
+      "skillFolderHash": "f1eb6cc73084a3c637c4ef9e9714cad69164a72c",
+      "installedAt": "2026-04-02T14:55:56.582Z",
+      "updatedAt": "2026-04-02T14:55:56.582Z"
+    },
+    "minimax-pdf": {
+      "source": "minimax-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/minimax-ai/skills.git",
+      "skillPath": "skills/minimax-pdf/SKILL.md",
+      "skillFolderHash": "ce691d0e4e34b7f1d73bd3c3560b658df0dbdb3a",
+      "installedAt": "2026-04-02T14:55:57.368Z",
+      "updatedAt": "2026-04-02T14:55:57.368Z"
+    },
+    "minimax-xlsx": {
+      "source": "minimax-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/minimax-ai/skills.git",
+      "skillPath": "skills/minimax-xlsx/SKILL.md",
+      "skillFolderHash": "5df30fd8f8669f34850767e1d99ba93c97d6ffc7",
+      "installedAt": "2026-04-02T14:55:58.047Z",
+      "updatedAt": "2026-04-02T14:55:58.047Z"
+    },
+    "pptx-generator": {
+      "source": "minimax-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/minimax-ai/skills.git",
+      "skillPath": "skills/pptx-generator/SKILL.md",
+      "skillFolderHash": "871f9dcc96fb46f1ee7883b8fed87140b430a2ae",
+      "installedAt": "2026-04-02T14:55:58.632Z",
+      "updatedAt": "2026-04-02T14:55:58.632Z"
     }
   },
   "dismissed": {

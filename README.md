@@ -32,6 +32,15 @@
 | `baoyu-xhs-images` | 小红书图文系列生成，11 种视觉风格 × 8 种布局，优化社交平台传播 |
 | `baoyu-compress-image` | 图片压缩为 WebP/PNG，自动选择最佳压缩工具 |
 | `baoyu-danger-gemini-web` | 通过逆向 Gemini Web API 生成图像和文本，支持参考图和多轮对话（需用户同意） |
+| `minimax-multimodal-toolkit` | MiniMax 多模态模型工具集，支持语音合成(TTS/声音克隆)、音乐生成、视频生成和图像生成 |
+
+### 📄 文档处理
+| 技能 | 说明 |
+|------|------|
+| `minimax-docx` | 专业 DOCX 文档创建、编辑和格式化，使用 OpenXML SDK，支持从零创建/填充编辑/模板格式化 |
+| `minimax-xlsx` | Excel 电子表格处理，支持创建、读取、分析、编辑和验证 .xlsx/.csv 文件，含公式计算和专业格式化 |
+| `minimax-pdf` | PDF 创建与生成，注重视觉质量和设计感，适用于报告、提案、简历等场景 |
+| `pptx-generator` | PowerPoint 演示文稿生成、编辑和读取，支持从零创建（封面/目录/内容/分隔/总结页）和编辑现有 PPTX |
 
 ### ✍️ 内容创作 & 翻译
 | 技能 | 说明 |
@@ -116,6 +125,8 @@
 ### 🛠️ 开发 & 最佳实践
 | 技能 | 说明 |
 |------|------|
+| `frontend-dev` | 全栈前端开发，融合高级 UI 设计、电影级动画、AI 媒体资源生成、文案撰写和视觉艺术 |
+| `fullstack-dev` | 全栈后端架构和前后端集成指南，适用于构建全栈应用、创建 REST API、脚手架后端服务等 |
 | `skill-creator` | 创建新技能、修改/改进现有技能、测量技能性能，支持评估和迭代 |
 | `release-skills` | 通用版本发布工作流，自动检测版本文件和变更日志，支持多种项目类型和多语言 Changelog |
 | `next-best-practices` | Next.js 最佳实践：文件约定、RSC 边界、数据模式、异步 API、元数据、错误处理等 |
@@ -207,4 +218,10 @@ npx skills add https://github.com/firecrawl/cli --skill firecrawl
 
 ```bash
 npx skills add https://github.com/antfu/skills --skill slidev
+```
+
+### MiniMax Skills
+
+```bash
+npx skills add https://github.com/minimax-ai/skills
 ```
