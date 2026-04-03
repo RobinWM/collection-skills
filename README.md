@@ -91,6 +91,11 @@
 | `extract` | 提取并整合可复用组件、设计 token 和模式到设计系统 |
 | `overdrive` | 突破常规极限的技术实现——着色器、弹簧物理、滚动驱动动画、60fps 动效 |
 
+### 📧 Google Workspace
+| 技能 | 说明 |
+|------|------|
+| `gog` | Google Workspace CLI，支持 Gmail 收发邮件、Calendar 日程管理、Drive 文件搜索、Contacts 联系人、Sheets 读写、Docs 导出，需 OAuth 授权 |
+
 ### 💼 飞书/Lark
 | 技能 | 说明 |
 |------|------|

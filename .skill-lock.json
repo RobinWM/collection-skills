@@ -831,6 +831,15 @@
       "skillFolderHash": "c2a3429f4cdcf2734969f2b1d96bba1e2f70a9a3",
       "installedAt": "2026-04-03T08:45:26.948Z",
       "updatedAt": "2026-04-03T08:45:26.948Z"
+    },
+    "gog": {
+      "source": "steipete/clawdis",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/steipete/clawdis.git",
+      "skillPath": "skills/gog/SKILL.md",
+      "skillFolderHash": "2c9b7bc934b67d90a276472304b3af7b14122fd6",
+      "installedAt": "2026-04-03T14:48:30.176Z",
+      "updatedAt": "2026-04-03T14:48:30.176Z"
     }
   },
   "dismissed": {
