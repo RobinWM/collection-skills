@@ -760,6 +760,15 @@
       "skillFolderHash": "871f9dcc96fb46f1ee7883b8fed87140b430a2ae",
       "installedAt": "2026-04-02T14:55:58.632Z",
       "updatedAt": "2026-04-02T14:55:58.632Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-04-03T04:02:00.953Z",
+      "updatedAt": "2026-04-03T04:02:00.953Z"
     }
   },
   "dismissed": {
