@@ -33,6 +33,7 @@
 | `baoyu-compress-image` | 图片压缩为 WebP/PNG，自动选择最佳压缩工具 |
 | `baoyu-danger-gemini-web` | 通过逆向 Gemini Web API 生成图像和文本，支持参考图和多轮对话（需用户同意） |
 | `minimax-multimodal-toolkit` | MiniMax 多模态模型工具集，支持语音合成(TTS/声音克隆)、音乐生成、视频生成和图像生成 |
+| `editorial-card-screenshot` | 高密度编辑式 HTML 信息卡片生成，瑞士国际风格排版，支持 8 种宽高比（3:4/4:3/1:1/16:9 等），输出 HTML + PNG 截图 |
 
 ### 📄 文档处理
 | 技能 | 说明 |
@@ -133,109 +134,3 @@
 | `vercel-react-best-practices` | Vercel 工程团队的 React/Next.js 性能优化指南，68 条规则，按影响优先级排列 |
 | `analyze-new-repo` | 分析陌生仓库：架构解读、代码定位、运行方式、技术选型，快速上手新项目 |
 | `find-skills` | 搜索和安装开放技能生态中的技能包，帮助发现可扩展的 Agent 能力 |
-
----
-
-## 安装方式
-
-### Obsidian
-
-```bash
-npx skills add https://github.com/kepano/obsidian-skills
-```
-
-### OpenCLI
-
-```bash
-npx skills add https://github.com/jackwener/opencli
-```
-
-### Lark CLI
-
-```bash
-npx skills add https://github.com/larksuite/cli
-```
-
-### Agent Browser
-
-```bash
-npx skills add https://github.com/vercel-labs/agent-browser
-```
-
-### Baoyu Skills
-
-```bash
-npx skills add https://github.com/jimliu/baoyu-skills
-```
-
-### Skill Creator
-
-```bash
-npx skills add https://github.com/anthropics/skills --skill skill-creator
-```
-
-### Remotion
-
-```bash
-npx skills add https://github.com/remotion-dev/skills --skill remotion-best-practices
-```
-
-### Frontend Design
-
-```bash
-npx skills add https://github.com/anthropics/skills --skill frontend-design
-```
-
-### Impeccable Style
-
-```bash
-npx skills add pbakaus/impeccable
-```
-
-### SEO Audit
-
-```bash
-npx skills add https://github.com/coreyhaines31/marketingskills --skill seo-audit
-```
-
-### Next Best Practices
-
-```bash
-npx skills add https://github.com/vercel-labs/next-skills --skill next-best-practices
-```
-
-### Vercel React Best Practices
-
-```bash
-npx skills add https://github.com/vercel-labs/agent-skills --skill vercel-react-best-practices
-```
-
-### Firecrawl
-
-```bash
-npx skills add https://github.com/firecrawl/cli --skill firecrawl
-```
-
-### Slidev
-
-```bash
-npx skills add https://github.com/antfu/skills --skill slidev
-```
-
-### MiniMax Skills
-
-```bash
-npx skills add https://github.com/minimax-ai/skills
-```
-
-### analyze-new-repo
-
-```bash
-npx skills add https://github.com/johnlee6511/analyze-new-repo --skill analyze-new-repo
-```
-
-### find skills
-
-```bash
-npx skills add https://github.com/vercel-labs/skills --skill find-skills
-```

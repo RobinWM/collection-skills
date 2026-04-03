@@ -822,6 +822,15 @@
       "skillFolderHash": "7e0b130d2411ecfe9479495c1de4c29155a128b2",
       "installedAt": "2026-04-03T05:01:21.791Z",
       "updatedAt": "2026-04-03T05:01:21.791Z"
+    },
+    "editorial-card-screenshot": {
+      "source": "shaom/infocard-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/shaom/infocard-skills.git",
+      "skillPath": "skills/editorial-card-screenshot/SKILL.md",
+      "skillFolderHash": "c2a3429f4cdcf2734969f2b1d96bba1e2f70a9a3",
+      "installedAt": "2026-04-03T08:45:26.948Z",
+      "updatedAt": "2026-04-03T08:45:26.948Z"
     }
   },
   "dismissed": {
