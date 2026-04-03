@@ -15,9 +15,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/kepano/obsidian-skills.git",
       "skillPath": "skills/defuddle/SKILL.md",
-      "skillFolderHash": "d365ce41229386873b7868d05c13fac80cd9c7fc",
+      "skillFolderHash": "db0b775af7e7d603f59fa2b67bdef615baf1a48f",
       "installedAt": "2026-04-02T14:06:00.186Z",
-      "updatedAt": "2026-04-02T14:06:00.186Z"
+      "updatedAt": "2026-04-03T05:01:25.250Z"
     },
     "json-canvas": {
       "source": "kepano/obsidian-skills",
@@ -60,10 +60,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
       "skillPath": "skills/agent-browser/SKILL.md",
-      "skillFolderHash": "8a7c2d2d628e69f3ebd51e15255917bedb264201",
-      "pluginName": "agent-browser",
+      "skillFolderHash": "3b319028d5e51497e251a3481d2c7d8521a860eb",
       "installedAt": "2026-04-02T14:08:22.876Z",
-      "updatedAt": "2026-04-02T14:08:22.876Z"
+      "updatedAt": "2026-04-03T05:01:28.869Z"
     },
     "baoyu-article-illustrator": {
       "source": "jimliu/baoyu-skills",
@@ -313,9 +312,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/larksuite/cli.git",
       "skillPath": "skills/lark-drive/SKILL.md",
-      "skillFolderHash": "032e6b5cae551e1aee1c7fd29878bed63b1c3d81",
+      "skillFolderHash": "aaa7e35f4fbf7a7a53b94c9a2c44b22d8ba053b2",
       "installedAt": "2026-04-02T14:12:07.569Z",
-      "updatedAt": "2026-04-02T14:12:07.569Z"
+      "updatedAt": "2026-04-03T05:01:32.780Z"
     },
     "lark-event": {
       "source": "larksuite/cli",
@@ -331,18 +330,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/larksuite/cli.git",
       "skillPath": "skills/lark-im/SKILL.md",
-      "skillFolderHash": "5844ee3676c49ceb87594fc980fb4005688d4bcc",
+      "skillFolderHash": "49bd068c7973d31e9228e2479414e48c2486453d",
       "installedAt": "2026-04-02T14:12:09.077Z",
-      "updatedAt": "2026-04-02T14:12:09.077Z"
+      "updatedAt": "2026-04-03T05:01:36.467Z"
     },
     "lark-mail": {
       "source": "larksuite/cli",
       "sourceType": "github",
       "sourceUrl": "https://github.com/larksuite/cli.git",
       "skillPath": "skills/lark-mail/SKILL.md",
-      "skillFolderHash": "adadf309aa8429f79227050bcdf87cdf16abdf00",
+      "skillFolderHash": "8929a74dfd3da3ae7e0474f72218fdd078a3a50d",
       "installedAt": "2026-04-02T14:12:09.755Z",
-      "updatedAt": "2026-04-02T14:12:09.755Z"
+      "updatedAt": "2026-04-03T05:01:40.552Z"
     },
     "lark-minutes": {
       "source": "larksuite/cli",
@@ -675,9 +674,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
       "skillPath": "skills/react-best-practices/SKILL.md",
-      "skillFolderHash": "190395c0dca241d4edfe36e585373e68ae7fbfa6",
+      "skillFolderHash": "a203aee7243640ceb56ce2c6c4ab286573df5e69",
       "installedAt": "2026-04-02T14:23:45.232Z",
-      "updatedAt": "2026-04-02T14:23:45.232Z"
+      "updatedAt": "2026-04-03T05:01:44.060Z"
     },
     "firecrawl": {
       "source": "firecrawl/cli",
@@ -778,6 +777,51 @@
       "skillFolderHash": "8e76a1f1deeb950be6a7a0e60dbb55b75ec9f85f",
       "installedAt": "2026-04-03T04:10:16.390Z",
       "updatedAt": "2026-04-03T04:10:16.390Z"
+    },
+    "opencli-explorer": {
+      "source": "jackwener/opencli",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jackwener/opencli.git",
+      "skillPath": "skills/opencli-explorer/SKILL.md",
+      "skillFolderHash": "7237c382ea2e54230f60979e4f83c91e431c0ebe",
+      "installedAt": "2026-04-03T05:01:18.099Z",
+      "updatedAt": "2026-04-03T05:01:18.099Z"
+    },
+    "opencli-oneshot": {
+      "source": "jackwener/opencli",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jackwener/opencli.git",
+      "skillPath": "skills/opencli-oneshot/SKILL.md",
+      "skillFolderHash": "33fb377c25815f27f63f4c344a940124c9ab7f90",
+      "installedAt": "2026-04-03T05:01:19.570Z",
+      "updatedAt": "2026-04-03T05:01:19.570Z"
+    },
+    "opencli-operate": {
+      "source": "jackwener/opencli",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jackwener/opencli.git",
+      "skillPath": "skills/opencli-operate/SKILL.md",
+      "skillFolderHash": "8f27e616e646ccaf8969bf6d4ca39475f6ede21c",
+      "installedAt": "2026-04-03T05:01:20.096Z",
+      "updatedAt": "2026-04-03T05:01:20.096Z"
+    },
+    "opencli-usage": {
+      "source": "jackwener/opencli",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jackwener/opencli.git",
+      "skillPath": "skills/opencli-usage/SKILL.md",
+      "skillFolderHash": "7f4b3806f7a1090b1a824223f71af0e225d0d11e",
+      "installedAt": "2026-04-03T05:01:20.848Z",
+      "updatedAt": "2026-04-03T05:01:20.848Z"
+    },
+    "smart-search": {
+      "source": "jackwener/opencli",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jackwener/opencli.git",
+      "skillPath": "skills/smart-search/SKILL.md",
+      "skillFolderHash": "7e0b130d2411ecfe9479495c1de4c29155a128b2",
+      "installedAt": "2026-04-03T05:01:21.791Z",
+      "updatedAt": "2026-04-03T05:01:21.791Z"
     }
   },
   "dismissed": {
