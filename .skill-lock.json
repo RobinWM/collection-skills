@@ -44,7 +44,7 @@
       "skillPath": "skills/obsidian-cli/SKILL.md",
       "skillFolderHash": "96254a554e480359de7b685571876f2e7f9ba57d",
       "installedAt": "2026-04-02T14:06:01.752Z",
-      "updatedAt": "2026-04-02T14:06:01.752Z"
+      "updatedAt": "2026-04-05T03:15:49.688Z"
     },
     "obsidian-markdown": {
       "source": "kepano/obsidian-skills",
@@ -723,6 +723,16 @@
       "skillFolderHash": "7f2e5e7697caf18b66ea2e4b29417c4f7d027375",
       "installedAt": "2026-04-03T23:22:37.206Z",
       "updatedAt": "2026-04-03T23:22:37.206Z"
+    },
+    "canvas-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/canvas-design/SKILL.md",
+      "skillFolderHash": "928af0a3279dc4e0c0e6ceaf407a8542a2bb2aa2",
+      "pluginName": "example-skills",
+      "installedAt": "2026-04-05T13:54:55.724Z",
+      "updatedAt": "2026-04-05T13:54:55.724Z"
     }
   },
   "dismissed": {
