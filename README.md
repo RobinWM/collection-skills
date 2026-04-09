@@ -20,7 +20,6 @@
 | `defuddle` | 从网页提取干净 Markdown 内容，去除广告和导航噪音 |
 | `baoyu-url-to-markdown` | 通过 Chrome CDP 抓取任意 URL 并转为 Markdown，内置 X/Twitter、YouTube、Hacker News 等适配器 |
 | `baoyu-youtube-transcript` | 下载 YouTube 视频字幕/封面图，支持多语言、翻译、章节和说话人识别 |
-| `baoyu-danger-x-to-markdown` | 将 X/Twitter 推文和文章转为带 YAML 元数据的 Markdown（逆向 API，需用户同意） |
 
 ### 🖥️ 浏览器自动化
 | 技能 | 说明 |
@@ -38,8 +37,6 @@
 | `baoyu-infographic` | 专业信息图生成，21 种布局类型 × 20 种视觉风格 |
 | `baoyu-xhs-images` | 小红书图文系列生成，11 种视觉风格 × 8 种布局，优化社交平台传播 |
 | `baoyu-compress-image` | 图片压缩为 WebP/PNG，自动选择最佳压缩工具 |
-| `baoyu-danger-gemini-web` | 通过逆向 Gemini Web API 生成图像和文本，支持参考图和多轮对话（需用户同意） |
-| `minimax-multimodal-toolkit` | MiniMax 多模态模型工具集，支持语音合成(TTS/声音克隆)、音乐生成、视频生成和图像生成 |
 | `editorial-card-screenshot` | 高密度编辑式 HTML 信息卡片生成，瑞士国际风格排版，支持 8 种宽高比（3:4/4:3/1:1/16:9 等），输出 HTML + PNG 截图 |
 
 ### 📋 文档处理
@@ -76,49 +73,21 @@
 | 技能 | 说明 |
 |------|------|
 | `frontend-design` | 生成高品质、有设计感的前端界面代码，避免 AI 模板化审美 |
-| `teach-impeccable` | 一次性设置，收集项目设计上下文（目标受众、品牌调性、审美方向）并保存 |
-| `critique` | UX 设计评审，含 Nielsen 十大启发式量化评分、人物角色测试和可操作反馈 |
-| `audit` | 技术质量检查，涵盖可访问性、性能、主题、响应式和反模式，生成 P0-P3 评分报告 |
 | `seo-audit` | SEO 诊断，覆盖技术 SEO、页面优化、内容质量和权威性 |
-| `optimize` | UI 性能诊断与优化，涵盖加载速度、渲染、动画、图片和包大小 |
-| `normalize` | 审计并重新对齐 UI 到设计系统标准，修复设计偏移和不一致样式 |
-| `arrange` | 优化布局、间距和视觉节奏，修复单调网格和弱层次感 |
-| `distill` | 极简化设计，去除不必要的复杂度，只留核心要素 |
-| `bolder` | 放大保守或平淡的设计，增加视觉冲击力同时保持可用性 |
-| `colorize` | 为单色调或缺乏视觉兴趣的界面添加策略性色彩 |
-| `quieter` | 降低视觉激进或过度刺激的设计强度，保持精致 |
-| `animate` | 为功能增添有目的的动画、微交互和动效 |
-| `delight` | 添加愉悦感、个性化和意外惊喜，让界面令人难忘 |
-| `typeset` | 改善字体选择、层次、大小、字重和可读性 |
-| `polish` | 上线前最终质量检查，修复对齐、间距、一致性和微细节 |
-| `adapt` | 响应式设计适配，实现断点、流式布局和触控目标 |
-| `harden` | 健壮性提升，改善错误处理、i18n 支持、文本溢出和边界情况 |
-| `clarify` | 改善不清晰的 UX 文案、错误消息、微文案和标签 |
-| `onboard` | 设计和改善新用户引导流程、空状态和首次体验 |
-| `extract` | 提取并整合可复用组件、设计 token 和模式到设计系统 |
-| `overdrive` | 突破常规极限的技术实现——着色器、弹簧物理、滚动驱动动画、60fps 动效 |
 
 ### 📧 Google Workspace
 | 技能 | 说明 |
 |------|------|
 | `gog` | Google Workspace CLI，支持 Gmail 收发邮件、Calendar 日程管理、Drive 文件搜索、Contacts 联系人、Sheets 读写、Docs 导出，需 OAuth 授权 |
 
-
 ### 📚 Obsidian
 | 技能 | 说明 |
 |------|------|
 | `obsidian-cli` | 命令行操作 Obsidian 笔记库：读写笔记、搜索、管理任务/属性，支持插件开发调试 |
 | `obsidian-markdown` | Obsidian 风味 Markdown：wikilink、嵌入、callout、属性等特有语法 |
-| `obsidian-bases` | Obsidian Bases（.base 文件）：数据库式视图，支持表格/卡片/列表/地图视图、筛选和公式 |
-| `json-canvas` | JSON Canvas（.canvas 文件）：创建和编辑节点、边、分组和连接，用于可视化画布和流程图 |
 
 ### 🛠️ 开发 & 最佳实践
 | 技能 | 说明 |
 |------|------|
-| `frontend-dev` | 全栈前端开发，融合高级 UI 设计、电影级动画、AI 媒体资源生成、文案撰写和视觉艺术 |
-| `fullstack-dev` | 全栈后端架构和前后端集成指南，适用于构建全栈应用、创建 REST API、脚手架后端服务等 |
 | `skill-creator` | 创建新技能、修改/改进现有技能、测量技能性能，支持评估和迭代 |
-| `release-skills` | 通用版本发布工作流，自动检测版本文件和变更日志，支持多种项目类型和多语言 Changelog |
-| `next-best-practices` | Next.js 最佳实践：文件约定、RSC 边界、数据模式、异步 API、元数据、错误处理等 |
-| `vercel-react-best-practices` | Vercel 工程团队的 React/Next.js 性能优化指南，68 条规则，按影响优先级排列 |
 | `find-skills` | 搜索和安装开放技能生态中的技能包，帮助发现可扩展的 Agent 能力 |
