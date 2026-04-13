@@ -66,7 +66,16 @@
 | 技能 | 说明 |
 |------|------|
 | `frontend-design` | 生成高品质、有设计感的前端界面代码，避免 AI 模板化审美 |
+
+### 🔎 SEO
+| 技能 | 说明 |
+|------|------|
+| `ai-seo` | 面向 AI 搜索与答案引擎优化，帮助内容被 ChatGPT、Perplexity、Claude、Gemini 等引用和收录 |
+| `competitor-alternatives` | 生成竞品替代页和对比页，用于 SEO 获客与销售转化 |
+| `programmatic-seo` | 规划与执行程序化 SEO，批量生产高质量可索引页面 |
+| `schema-markup` | 设计和实现结构化数据标记，提升搜索引擎理解与富结果展示机会 |
 | `seo-audit` | SEO 诊断，覆盖技术 SEO、页面优化、内容质量和权威性 |
+| `site-architecture` | 规划网站信息架构、URL 结构、导航与内链体系，兼顾用户体验与 SEO |
 
 ### 📧 Google Workspace
 | 技能 | 说明 |
