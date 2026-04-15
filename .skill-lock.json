@@ -335,6 +335,15 @@
       "skillFolderHash": "e9108953f5f75111a4f36228ce59c1de3706243d",
       "installedAt": "2026-04-09T16:08:58.137Z",
       "updatedAt": "2026-04-09T16:08:58.137Z"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "skillFolderHash": "343db72180d05814949fef7d46be96b5c6ee86b3",
+      "installedAt": "2026-04-15T07:25:22.478Z",
+      "updatedAt": "2026-04-15T07:25:22.478Z"
     }
   },
   "dismissed": {
@@ -352,9 +361,6 @@
     "github-copilot",
     "kimi-cli",
     "opencode",
-    "warp",
-    "claude-code",
-    "openclaw",
-    "codebuddy"
+    "warp"
   ]
 }
