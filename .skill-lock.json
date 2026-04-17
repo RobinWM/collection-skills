@@ -332,6 +332,16 @@
       "skillFolderHash": "343db72180d05814949fef7d46be96b5c6ee86b3",
       "installedAt": "2026-04-15T07:25:22.478Z",
       "updatedAt": "2026-04-15T07:25:22.478Z"
+    },
+    "dirs-submit": {
+      "source": "RobinWM/ship-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/RobinWM/ship-skills.git",
+      "skillPath": "skills/dirs-submit/SKILL.md",
+      "skillFolderHash": "bbc738ea5faeaaff0729a1a75dfd4cad4bbc0188",
+      "pluginName": "ship-skills",
+      "installedAt": "2026-04-17T03:31:38.206Z",
+      "updatedAt": "2026-04-17T03:31:38.206Z"
     }
   },
   "dismissed": {
