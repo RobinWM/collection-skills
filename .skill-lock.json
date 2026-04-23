@@ -342,6 +342,96 @@
       "pluginName": "ship-skills",
       "installedAt": "2026-04-17T03:31:38.206Z",
       "updatedAt": "2026-04-17T03:31:38.206Z"
+    },
+    "ai-seo": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/ai-seo/SKILL.md",
+      "skillFolderHash": "fc01f387bd4babda49225822ba97bc6732082be1",
+      "installedAt": "2026-04-23T08:40:55.393Z",
+      "updatedAt": "2026-04-23T08:40:55.393Z"
+    },
+    "add-locale": {
+      "source": "Humanizr/Humanizer",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Humanizr/Humanizer.git",
+      "skillPath": ".agents/skills/add-locale/SKILL.md",
+      "skillFolderHash": "b80968dfaa026f092cacac3c44f17a70f559c4f8",
+      "installedAt": "2026-04-23T08:45:09.423Z",
+      "updatedAt": "2026-04-23T08:45:09.423Z"
+    },
+    "humanizer": {
+      "source": "blader/humanizer",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/blader/humanizer.git",
+      "skillPath": "SKILL.md",
+      "skillFolderHash": "8b3a17889fbf12bedae20974a3c9f9de746ed754",
+      "installedAt": "2026-04-23T08:47:02.533Z",
+      "updatedAt": "2026-04-23T08:47:02.533Z"
+    },
+    "issue-analyzer": {
+      "source": "RobinWM/collection-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/RobinWM/collection-skills.git",
+      "skillPath": "skills/issue-analyzer/SKILL.md",
+      "skillFolderHash": "48116f00174cfac638f25dea7976da33389d0419",
+      "installedAt": "2026-04-23T08:55:47.921Z",
+      "updatedAt": "2026-04-23T08:55:47.921Z"
+    },
+    "programmatic-seo": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/programmatic-seo/SKILL.md",
+      "skillFolderHash": "ebd45df541268af6df1eef6855731b57fe09deb2",
+      "installedAt": "2026-04-23T08:57:59.440Z",
+      "updatedAt": "2026-04-23T08:57:59.440Z"
+    },
+    "schema-markup": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/schema-markup/SKILL.md",
+      "skillFolderHash": "7a0e3936ea4cc91c8735148d5964cce5c9ce0bfa",
+      "installedAt": "2026-04-23T08:59:39.811Z",
+      "updatedAt": "2026-04-23T08:59:39.811Z"
+    },
+    "site-architecture": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/site-architecture/SKILL.md",
+      "skillFolderHash": "3e7439cf233d711b0902c888f2252ef8d16aaa53",
+      "installedAt": "2026-04-23T08:59:40.729Z",
+      "updatedAt": "2026-04-23T08:59:40.729Z"
+    },
+    "competitor-alternatives": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/competitor-alternatives/SKILL.md",
+      "skillFolderHash": "4bc4760726d967ec06fa601f341ab5ed014c251f",
+      "installedAt": "2026-04-23T09:01:58.065Z",
+      "updatedAt": "2026-04-23T09:01:58.065Z"
+    },
+    "repo-analyzer": {
+      "source": "RobinWM/collection-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/RobinWM/collection-skills.git",
+      "skillPath": "skills/repo-analyzer/SKILL.md",
+      "skillFolderHash": "a2d77037a097d7496fb71d6d0a462fab75bf1f98",
+      "installedAt": "2026-04-23T09:03:28.860Z",
+      "updatedAt": "2026-04-23T09:03:28.860Z"
+    },
+    "huashu-design": {
+      "source": "alchaincyf/huashu-design",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/alchaincyf/huashu-design.git",
+      "skillPath": "SKILL.md",
+      "skillFolderHash": "a75835d3ef8ab44dab3691c7210f3251667d7120",
+      "installedAt": "2026-04-23T09:05:18.754Z",
+      "updatedAt": "2026-04-23T09:05:18.754Z"
     }
   },
   "dismissed": {
