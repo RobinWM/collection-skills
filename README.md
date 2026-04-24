@@ -69,6 +69,7 @@
 | `remotion-best-practices` | Remotion（React 视频创作）最佳实践，涵盖字幕、FFmpeg、音频可视化、动画、转场等 |
 | `slidev`                  | 面向开发者的 Markdown 幻灯片演示工具，支持 Vue 组件、代码高亮、动画和交互      |
 | `baoyu-slide-deck`        | 从内容生成专业幻灯片图片，支持 16+ 种风格预设，输出 PPTX/PDF                   |
+| `magazine-web-ppt`        | 生成电子杂志 × 电子墨水风格的单文件横向翻页网页 PPT，适合分享、演讲和发布会    |
 
 ### 🎨 前端设计 & UX
 
