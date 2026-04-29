@@ -363,9 +363,9 @@
       "updatedAt": "2026-04-23T08:47:02.533Z"
     },
     "issue-analyzer": {
-      "source": "RobinWM/collection-skills",
+      "source": "open-fox/agents",
       "sourceType": "github",
-      "sourceUrl": "https://github.com/RobinWM/collection-skills.git",
+      "sourceUrl": "https://github.com/open-fox/agents.git",
       "skillPath": "skills/issue-analyzer/SKILL.md",
       "skillFolderHash": "48116f00174cfac638f25dea7976da33389d0419",
       "installedAt": "2026-04-23T08:55:47.921Z",
@@ -408,9 +408,9 @@
       "updatedAt": "2026-04-23T09:01:58.065Z"
     },
     "repo-analyzer": {
-      "source": "RobinWM/collection-skills",
+      "source": "open-fox/agents",
       "sourceType": "github",
-      "sourceUrl": "https://github.com/RobinWM/collection-skills.git",
+      "sourceUrl": "https://github.com/open-fox/agents.git",
       "skillPath": "skills/repo-analyzer/SKILL.md",
       "skillFolderHash": "a2d77037a097d7496fb71d6d0a462fab75bf1f98",
       "installedAt": "2026-04-23T09:03:28.860Z",
