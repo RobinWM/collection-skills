@@ -12,7 +12,7 @@
 | -------------------------- | ---------------------------------------------------------------------------------------------------- |
 | `firecrawl`                | Firecrawl CLI，支持网页搜索、单页抓取、站点爬取、浏览器交互、AI 自主提取等，输出 LLM 友好的 Markdown |
 | `defuddle`                 | 从网页提取干净 Markdown 内容，去除广告和导航噪音                                                     |
-| `autocli`                  | 复用 Chrome 登录态把 55+ 网站变成 CLI，支持读取热榜、搜索、发帖、收发消息等站点交互                 |
+| `autocli`                  | 复用 Chrome 登录态把 55+ 网站变成 CLI，支持读取热榜、搜索、发帖、收发消息等站点交互                  |
 | `baoyu-url-to-markdown`    | 通过 Chrome CDP 抓取任意 URL 并转为 Markdown，内置 X/Twitter、YouTube、Hacker News 等适配器          |
 | `baoyu-youtube-transcript` | 下载 YouTube 视频字幕/封面图，支持多语言、翻译、章节和说话人识别                                     |
 
@@ -69,7 +69,7 @@
 | `remotion-best-practices` | Remotion（React 视频创作）最佳实践，涵盖字幕、FFmpeg、音频可视化、动画、转场等 |
 | `slidev`                  | 面向开发者的 Markdown 幻灯片演示工具，支持 Vue 组件、代码高亮、动画和交互      |
 | `baoyu-slide-deck`        | 从内容生成专业幻灯片图片，支持 16+ 种风格预设，输出 PPTX/PDF                   |
-| `magazine-web-ppt`        | 生成电子杂志 × 电子墨水风格的单文件横向翻页网页 PPT，适合分享、演讲和发布会    |
+| `guizang-ppt-skill`       | 生成电子杂志 × 电子墨水风格的单文件横向翻页网页 PPT，适合分享、演讲和发布会    |
 
 ### 🎨 前端设计 & UX
 
