@@ -109,6 +109,6 @@
 | ---------------- | ------------------------------------------------------------------------------------- |
 | `skill-creator`  | 创建新技能、修改/改进现有技能、测量技能性能，支持评估和迭代                           |
 | `find-skills`    | 搜索和安装开放技能生态中的技能包，帮助发现可扩展的 Agent 能力                         |
-| `dirs-submit`    | `ship` CLI，封装 aidirs.org 和 backlinkdirs.com 的登录、预览、提交与自更新流程        |
+| `dirs-submit`    | ship CLI，封装 aidirs.org 和 backlinkdirs.com 的登录、预览、提交与自更新流程        |
 | `repo-analyzer`  | 分析代码仓库的架构、技术栈、核心模块和风险，生成结构化项目分析报告（Markdown + HTML） |
 | `issue-analyzer` | 分析崩溃堆栈、日志和源代码，生成根因分析报告，含调用链、修复建议（Markdown + HTML）   |

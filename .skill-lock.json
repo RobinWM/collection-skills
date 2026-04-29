@@ -331,8 +331,9 @@
       "sourceUrl": "https://github.com/RobinWM/ship-skills.git",
       "skillPath": "skills/dirs-submit/SKILL.md",
       "skillFolderHash": "61563a3bd40ab500226b7335ad7bcfd00894bdd8",
+      "pluginName": "ship-skills",
       "installedAt": "2026-04-17T03:31:38.206Z",
-      "updatedAt": "2026-04-29T03:44:30.779Z"
+      "updatedAt": "2026-04-29T06:22:30.432Z"
     },
     "ai-seo": {
       "source": "coreyhaines31/marketingskills",
