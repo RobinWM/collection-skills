@@ -333,7 +333,7 @@
       "skillFolderHash": "61563a3bd40ab500226b7335ad7bcfd00894bdd8",
       "pluginName": "ship-skills",
       "installedAt": "2026-04-17T03:31:38.206Z",
-      "updatedAt": "2026-04-29T06:22:30.432Z"
+      "updatedAt": "2026-05-08T09:21:56.017Z"
     },
     "ai-seo": {
       "source": "coreyhaines31/marketingskills",
@@ -442,6 +442,16 @@
       "skillFolderHash": "ce53c593aad103a47a4ebdca66cfa41cac9579b6",
       "installedAt": "2026-04-29T06:12:45.300Z",
       "updatedAt": "2026-04-29T06:12:45.300Z"
+    },
+    "domain-handler": {
+      "source": "RobinWM/ship-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/RobinWM/ship-skills.git",
+      "skillPath": "skills/domain-handler/SKILL.md",
+      "skillFolderHash": "c8487a3c8da66c6ac7074f6fb838636512b0bcd1",
+      "pluginName": "ship-skills",
+      "installedAt": "2026-05-08T09:21:56.021Z",
+      "updatedAt": "2026-05-08T09:21:56.021Z"
     }
   },
   "dismissed": {
@@ -454,6 +464,7 @@
     "codex",
     "cursor",
     "deepagents",
+    "dexto",
     "firebender",
     "gemini-cli",
     "github-copilot",
