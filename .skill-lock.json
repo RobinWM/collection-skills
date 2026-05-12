@@ -42,18 +42,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/jimliu/baoyu-skills.git",
       "skillPath": "skills/baoyu-article-illustrator/SKILL.md",
-      "skillFolderHash": "357d3623ac0b97520a93d2cad0b7f24e28b387c9",
+      "skillFolderHash": "da19506d70bc9adfff62e92c8792d1b40d54d83f",
       "installedAt": "2026-04-02T14:10:08.098Z",
-      "updatedAt": "2026-04-29T03:46:04.050Z"
+      "updatedAt": "2026-05-12T07:36:24.265Z"
     },
     "baoyu-comic": {
       "source": "jimliu/baoyu-skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/jimliu/baoyu-skills.git",
       "skillPath": "skills/baoyu-comic/SKILL.md",
-      "skillFolderHash": "765b3becb2d5b0ed9fd5d9b3fcfc4c6cf5bf305f",
+      "skillFolderHash": "ce4ba2a52dccc8359087c40e8d0aab60ee0a9fcc",
       "installedAt": "2026-04-02T14:10:09.106Z",
-      "updatedAt": "2026-04-29T03:39:10.857Z"
+      "updatedAt": "2026-05-12T07:36:49.257Z"
     },
     "baoyu-compress-image": {
       "source": "jimliu/baoyu-skills",
@@ -69,9 +69,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/jimliu/baoyu-skills.git",
       "skillPath": "skills/baoyu-cover-image/SKILL.md",
-      "skillFolderHash": "92b651506c12857d923f0303dad33a41bc234695",
+      "skillFolderHash": "caa0d3059a48e80030861da6365e95a5ebd52ab2",
       "installedAt": "2026-04-02T14:10:10.840Z",
-      "updatedAt": "2026-04-29T03:46:15.272Z"
+      "updatedAt": "2026-05-12T07:34:59.052Z"
     },
     "baoyu-format-markdown": {
       "source": "jimliu/baoyu-skills",
@@ -96,9 +96,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/jimliu/baoyu-skills.git",
       "skillPath": "skills/baoyu-infographic/SKILL.md",
-      "skillFolderHash": "f192241cdcae95e53a0473969b5a444a8ae730ca",
+      "skillFolderHash": "a7164cd959508d9711d65a6597f93425306a8658",
       "installedAt": "2026-04-02T14:10:16.273Z",
-      "updatedAt": "2026-05-11T01:41:11.865Z"
+      "updatedAt": "2026-05-12T07:37:14.699Z"
     },
     "baoyu-markdown-to-html": {
       "source": "jimliu/baoyu-skills",
@@ -132,18 +132,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/jimliu/baoyu-skills.git",
       "skillPath": "skills/baoyu-post-to-x/SKILL.md",
-      "skillFolderHash": "6de02fb2091be0f13e914e0cd9842845f6f3a236",
+      "skillFolderHash": "8df511db75ffdce56df2f5b2911d203c6a203894",
       "installedAt": "2026-04-02T14:10:20.624Z",
-      "updatedAt": "2026-05-11T01:41:34.289Z"
+      "updatedAt": "2026-05-12T07:37:38.272Z"
     },
     "baoyu-slide-deck": {
       "source": "jimliu/baoyu-skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/jimliu/baoyu-skills.git",
       "skillPath": "skills/baoyu-slide-deck/SKILL.md",
-      "skillFolderHash": "d63f54d6df721e77c84a16107ab5ef76e7bcce79",
+      "skillFolderHash": "b54878531b9640480ddb869c8caad0fed9a454f7",
       "installedAt": "2026-04-02T14:10:21.674Z",
-      "updatedAt": "2026-04-29T03:43:20.007Z"
+      "updatedAt": "2026-05-12T07:38:03.089Z"
     },
     "baoyu-translate": {
       "source": "jimliu/baoyu-skills",
@@ -168,9 +168,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/jimliu/baoyu-skills.git",
       "skillPath": "skills/baoyu-xhs-images/SKILL.md",
-      "skillFolderHash": "f32dca954fb9906953f38b8eed448e383dcd77af",
+      "skillFolderHash": "ee66a585ffd01969adddf43dd7d337142533e77a",
       "installedAt": "2026-04-02T14:10:24.708Z",
-      "updatedAt": "2026-04-29T03:43:53.648Z"
+      "updatedAt": "2026-05-12T07:38:27.958Z"
     },
     "baoyu-youtube-transcript": {
       "source": "jimliu/baoyu-skills",
