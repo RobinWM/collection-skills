@@ -113,3 +113,5 @@
 | `repo-analyzer`  | 分析代码仓库的架构、技术栈、核心模块和风险，生成结构化项目分析报告（Markdown + HTML） |
 | `issue-analyzer` | 分析崩溃堆栈、日志和源代码，生成根因分析报告，含调用链、修复建议（Markdown + HTML）   |
 | `domain-handler` | 域名注册/查询与 Cloudflare DNS 自动接入工作流，统一处理 Spaceship、Cloudflare、Vercel 等域名相关操作 |
+| `add-locale` | 添加或补齐 Humanizer locale，本地化覆盖、注册表、共享引擎和测试需达到完整 parity |
+| `mkfast-env-init` | 初始化 mkfast-template 及其 fork 的环境变量，避免乱造 key、混用 build/runtime config 或覆盖 secrets |
