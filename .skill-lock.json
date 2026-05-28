@@ -460,6 +460,15 @@
       "skillFolderHash": "a23b2dea68c1f2a671c0e985aa946fb3fe8d55f4",
       "installedAt": "2026-05-26T09:52:09.024Z",
       "updatedAt": "2026-05-26T09:52:09.024Z"
+    },
+    "guizang-social-card-skill": {
+      "source": "op7418/guizang-social-card-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/op7418/guizang-social-card-skill.git",
+      "skillPath": "SKILL.md",
+      "skillFolderHash": "032782ff67e0a20416bae8159f67000c1e4e7ae2",
+      "installedAt": "2026-05-28T02:25:09.769Z",
+      "updatedAt": "2026-05-28T02:25:09.769Z"
     }
   },
   "dismissed": {
