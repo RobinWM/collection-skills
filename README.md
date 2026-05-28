@@ -115,3 +115,4 @@
 | `domain-handler` | 域名注册/查询与 Cloudflare DNS 自动接入工作流，统一处理 Spaceship、Cloudflare、Vercel 等域名相关操作 |
 | `add-locale` | 添加或补齐 Humanizer locale，本地化覆盖、注册表、共享引擎和测试需达到完整 parity |
 | `mkfast-env-init` | 初始化 mkfast-template 及其 fork 的环境变量，避免乱造 key、混用 build/runtime config 或覆盖 secrets |
+| `guizang-social-card-skill` | Generate Guizang-style social card image sets and WeChat official account cover pairs from articles, scripts, screenshots, product notes, subtitles, or photos. Use when the user asks for 小红书图文, Rednote/Xiaohongshu images, social cards, carousel images, 3:4 covers, 微信公众号封面, WeChat 21:9 + 1:1 covers, Swiss Style, or magazine-style social images. |
