@@ -433,6 +433,15 @@
       "skillFolderHash": "032782ff67e0a20416bae8159f67000c1e4e7ae2",
       "installedAt": "2026-05-28T02:25:09.769Z",
       "updatedAt": "2026-05-28T02:25:09.769Z"
+    },
+    "agently-mail": {
+      "source": "Tencent/AgentlyMail",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Tencent/AgentlyMail.git",
+      "skillPath": "skills/SKILL.md",
+      "skillFolderHash": "d32011bbd032be14fdbfc8e8e7a5f2bb9d97f0e5",
+      "installedAt": "2026-06-24T00:51:55.692Z",
+      "updatedAt": "2026-06-24T00:51:55.692Z"
     }
   },
   "dismissed": {

@@ -86,8 +86,9 @@ POST /v1/domains/available
 
 ### 3. 先查询已有联系人，再决定是否创建
 
-如果用户要注册域名，先查询账号里已有的联系人，优先复用可用的 contact
-ID；只有在没有可用联系人时，才创建新的 Spaceship 联系人：
+如果用户要注册域名，先查询账号里已有的联系人，优先复用可用的 contact ID。实测 `GET /v1/contacts` 可能返回 404；这时不要卡住，优先用 `GET /v1/domains?take=100&skip=0` 从账号现有域名的 `contacts.registrant/admin/tech/billing` 读取正在使用的 contact ID。
+
+如果确实没有可复用联系人，才创建新的 Spaceship 联系人（按最新 Spaceship API 文档确认端点；旧文档里的 `/v1/contacts` 可能不可用）：
 
 ```http
 POST /v1/contacts
@@ -230,7 +231,8 @@ GET /zones/{zone_id}/email/sending/subdomains/{subdomain_id}/dns
 - 如果是从第 7 步自动继续过来，默认把主域名本身作为发送域名接入，不要再次停下来等待额外确认；除非用户之前已经明确排除邮件发送。
 - 如果用户明确要求接主域名，就把 zone apex 作为 `name` 传给 Email Sending API，不要擅自改成其他发送子域。
 - 如果用户只说“接入邮件发送”，但没有说明要主域名还是发送子域，先确认；默认不要替用户决定品牌层面的发件域名。
-- 创建成功后，读取并汇报 Cloudflare 返回的必需 DNS 记录，再视用户要求决定是自动创建这些记录还是只回传给用户确认。
+- 创建成功后，读取并汇报 Cloudflare 返回的必需 DNS 记录。Cloudflare Email Sending 可能会自动创建这些记录，并把部分记录标成 `email_routing: true`/read-only；如果手动创建 MX 时返回 `890190 This zone is managed by Email Routing`，先检查 DNS 列表，通常不是失败，而是记录已由 Cloudflare Email 系统托管创建。
+- 如用户要求“后续全部流程”，可自动验证 DNS 记录是否存在；不要为 read-only/Email Routing 托管记录重复创建。
 - 如需验证账号是否已开通 Email Sending，可先检查：
 
 ```http
