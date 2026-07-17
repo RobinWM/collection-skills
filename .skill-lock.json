@@ -308,15 +308,6 @@
       "installedAt": "2026-04-17T03:31:38.206Z",
       "updatedAt": "2026-05-08T09:21:56.017Z"
     },
-    "ai-seo": {
-      "source": "coreyhaines31/marketingskills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
-      "skillPath": "skills/ai-seo/SKILL.md",
-      "skillFolderHash": "07cb46667e8af9f861d0543f9814328b0b474580",
-      "installedAt": "2026-04-23T08:40:55.393Z",
-      "updatedAt": "2026-05-26T09:52:07.160Z"
-    },
     "add-locale": {
       "source": "Humanizr/Humanizer",
       "sourceType": "github",
