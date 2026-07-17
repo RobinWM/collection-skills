@@ -480,13 +480,13 @@
       "updatedAt": "2026-07-16T15:42:53.031Z"
     },
     "seo-dataforseo": {
-      "source": "AgriciDaniel/claude-seo",
+      "source": "AgriciDaniel/codex-seo",
       "sourceType": "github",
-      "sourceUrl": "https://github.com/AgriciDaniel/claude-seo.git",
+      "sourceUrl": "https://github.com/AgriciDaniel/codex-seo.git",
       "skillPath": "extensions/dataforseo/skills/seo-dataforseo/SKILL.md",
-      "skillFolderHash": "319706a36d891c429a8f38d2a5f49ab6824688b0",
+      "skillFolderHash": "e2dfdb061fb062b8fd19dbd141f9f0dd9b7cc9b3",
       "installedAt": "2026-07-16T15:42:53.031Z",
-      "updatedAt": "2026-07-16T15:42:53.031Z"
+      "updatedAt": "2026-07-17T07:02:28.184Z"
     },
     "seo-drift": {
       "source": "AgriciDaniel/claude-seo",
@@ -507,13 +507,13 @@
       "updatedAt": "2026-07-16T15:42:53.031Z"
     },
     "seo-firecrawl": {
-      "source": "AgriciDaniel/claude-seo",
+      "source": "AgriciDaniel/codex-seo",
       "sourceType": "github",
-      "sourceUrl": "https://github.com/AgriciDaniel/claude-seo.git",
+      "sourceUrl": "https://github.com/AgriciDaniel/codex-seo.git",
       "skillPath": "extensions/firecrawl/skills/seo-firecrawl/SKILL.md",
-      "skillFolderHash": "5d7a89bc8c57c995b0cbde10574ddd03a3238c73",
+      "skillFolderHash": "63d0cc56dc3dc836ae612e702d2c6d965195a838",
       "installedAt": "2026-07-16T15:42:53.031Z",
-      "updatedAt": "2026-07-16T15:42:53.031Z"
+      "updatedAt": "2026-07-17T07:02:28.184Z"
     },
     "seo-flow": {
       "source": "AgriciDaniel/claude-seo",
@@ -552,13 +552,13 @@
       "updatedAt": "2026-07-16T15:42:53.031Z"
     },
     "seo-image-gen": {
-      "source": "AgriciDaniel/claude-seo",
+      "source": "AgriciDaniel/codex-seo",
       "sourceType": "github",
-      "sourceUrl": "https://github.com/AgriciDaniel/claude-seo.git",
+      "sourceUrl": "https://github.com/AgriciDaniel/codex-seo.git",
       "skillPath": "extensions/banana/skills/seo-image-gen/SKILL.md",
-      "skillFolderHash": "7be7e46474441c7692a47dd29710870d6553ad6e",
+      "skillFolderHash": "8cf428a3fff4b67e26122ef69aa4e7f3fc276c6b",
       "installedAt": "2026-07-16T15:42:53.031Z",
-      "updatedAt": "2026-07-16T15:42:53.031Z"
+      "updatedAt": "2026-07-17T07:02:28.184Z"
     },
     "seo-images": {
       "source": "AgriciDaniel/claude-seo",
@@ -597,13 +597,13 @@
       "updatedAt": "2026-07-16T15:42:53.031Z"
     },
     "seo-performance": {
-      "source": "local/codex",
-      "sourceType": "local",
-      "sourceUrl": "file:///root/.codex/skills",
+      "source": "AgriciDaniel/codex-seo",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/AgriciDaniel/codex-seo.git",
       "skillPath": "skills/seo-performance/SKILL.md",
-      "skillFolderHash": "9cc9cf5eeb690e3e11962f992b8367d82d1203ac5640dffe0bd1a857a6181d9a",
+      "skillFolderHash": "759cd3c32b2acfd5d2e4f590d05feeebf154aadd",
       "installedAt": "2026-07-16T15:42:53.031Z",
-      "updatedAt": "2026-07-16T15:42:53.031Z"
+      "updatedAt": "2026-07-17T07:02:28.184Z"
     },
     "seo-plan": {
       "source": "AgriciDaniel/claude-seo",
@@ -660,13 +660,13 @@
       "updatedAt": "2026-07-16T15:42:53.031Z"
     },
     "seo-visual": {
-      "source": "local/codex",
-      "sourceType": "local",
-      "sourceUrl": "file:///root/.codex/skills",
+      "source": "AgriciDaniel/codex-seo",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/AgriciDaniel/codex-seo.git",
       "skillPath": "skills/seo-visual/SKILL.md",
-      "skillFolderHash": "4a8ad9daaff75e11420dea2064f843cf937ecd5ab0aa4bee45bb0806cb6afdef",
+      "skillFolderHash": "f4b9173940702904aeb13e5a51449d6fdd590ed7",
       "installedAt": "2026-07-16T15:42:53.031Z",
-      "updatedAt": "2026-07-16T15:42:53.031Z"
+      "updatedAt": "2026-07-17T07:02:28.184Z"
     },
     "seo-ahrefs": {
       "source": "AgriciDaniel/claude-seo",
