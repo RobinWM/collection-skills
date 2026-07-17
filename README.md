@@ -79,12 +79,43 @@
 
 ### 🔎 SEO
 
-| 技能                      | 说明                                                                                    |
-| ------------------------- | --------------------------------------------------------------------------------------- |
-| `ai-seo`                  | 面向 AI 搜索与答案引擎优化，帮助内容被 ChatGPT、Perplexity、Claude、Gemini 等引用和收录 |
-| `programmatic-seo`        | 规划与执行程序化 SEO，批量生产高质量可索引页面                                          |
-| `seo-audit`               | SEO 诊断，覆盖技术 SEO、页面优化、内容质量和权威性                                      |
-| `site-architecture`       | 规划网站信息架构、URL 结构、导航与内链体系，兼顾用户体验与 SEO                          |
+| 技能                    | 说明                                                     |
+| ----------------------- | -------------------------------------------------------- |
+| `ai-seo`               | AI 搜索、AEO、GEO 与 LLM 引用可见性优化                  |
+| `programmatic-seo`     | 使用模板和数据批量创建 SEO 页面                          |
+| `seo`                  | 综合 SEO 分析、审计、技术与内容优化                       |
+| `seo-ahrefs`             | Ahrefs 数据接入与 SEO 分析                                |
+| `seo-audit`              | SEO 健康检查、技术 SEO、排名与索引问题诊断                |
+| `seo-bing`               | Bing Webmaster Tools 数据接入                             |
+| `seo-backlinks`        | 外链画像、毒链检测、竞品外链差距与链接建设分析             |
+| `seo-cluster`          | SEO 主题集群与内容规划                                   |
+| `seo-competitor-pages` | 竞品页面与竞品 SEO 分析                                  |
+| `seo-content`          | SEO 内容分析、优化与创作                                 |
+| `seo-dataforseo`       | 通过 DataForSEO 获取关键词、SERP 与 SEO 数据              |
+| `seo-drift`            | SEO 内容与技术变更漂移监测                               |
+| `seo-ecommerce`        | 电商 SEO、商品页与结构化数据优化                          |
+| `seo-firecrawl`        | 使用 Firecrawl 抓取网页并进行 SEO 分析                    |
+| `seo-flow`             | SEO 工作流编排与自动化                                   |
+| `seo-geo`              | 面向 AI Overviews、ChatGPT、Perplexity 的 GEO 优化         |
+| `seo-google`           | Google Search、Search Console 与 SEO 数据分析             |
+| `seo-hreflang`         | 多语言、多地区网站的 hreflang 配置与审计                  |
+| `seo-image-gen`        | 生成 OG 图、博客配图、产品图、信息图等 SEO 图片资产        |
+| `seo-images`           | 图片 SEO、alt 文本、尺寸、格式与性能优化                  |
+| `seo-local`            | 本地 SEO、Google Business Profile 与本地排名优化           |
+| `seo-maps`             | 地图、本地商家与地理位置 SEO                              |
+| `seo-page`             | 单页面 SEO 分析与优化                                    |
+| `seo-performance`      | Core Web Vitals、Lighthouse 与性能审计                    |
+| `seo-plan`             | SEO 策略、路线图与执行计划                                |
+| `seo-profound`         | Profound AI 搜索与 GEO 数据接入                           |
+| `seo-programmatic`     | 程序化 SEO 页面与规模化落地页建设                         |
+| `seo-schema`           | Schema.org、JSON-LD 与结构化数据                         |
+| `seo-seranking`        | SE Ranking 数据接入与排名分析                            |
+| `seo-sitemap`          | XML sitemap 生成、分析与问题排查                          |
+| `seo-sxo`              | 搜索体验优化（SXO）与转化导向的 SEO                       |
+| `seo-technical`        | 技术 SEO、抓取、索引、性能与网站健康                      |
+| `seo-unlighthouse`     | Unlighthouse 批量 Lighthouse 性能审计                     |
+| `seo-visual`           | 截图、首屏与移动端视觉信号审计                            |
+| `site-architecture`    | 网站层级、导航、URL 结构与内链规划                        |
 
 ### 📧 Google Workspace
 
@@ -109,7 +140,6 @@
 
 | 技能        | 说明                                                                                     |
 | ----------- | ---------------------------------------------------------------------------------------- |
-| `my-coffee` | 瑞幸咖啡下单助手：搜索门店/商品、下单、查询取餐码和订单状态、取消订单；依赖 my-coffee MCP |
 
 ### 🛠️ 开发 & 最佳实践
 
