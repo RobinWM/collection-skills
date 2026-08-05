@@ -326,15 +326,6 @@
       "installedAt": "2026-04-23T08:47:02.533Z",
       "updatedAt": "2026-04-23T08:47:02.533Z"
     },
-    "issue-analyzer": {
-      "source": "open-fox/agents",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/open-fox/agents.git",
-      "skillPath": "skills/issue-analyzer/SKILL.md",
-      "skillFolderHash": "48116f00174cfac638f25dea7976da33389d0419",
-      "installedAt": "2026-04-23T08:55:47.921Z",
-      "updatedAt": "2026-04-23T08:55:47.921Z"
-    },
     "programmatic-seo": {
       "source": "coreyhaines31/marketingskills",
       "sourceType": "github",
