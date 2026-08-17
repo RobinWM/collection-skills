@@ -110,7 +110,7 @@ Rewrites follow a no-fabrication rule: they never add facts, names, dates, or ci
 
 > "LLMs use statistical algorithms to guess what should come next. The result tends toward the most statistically likely result that applies to the widest variety of cases."
 
-## 33 Patterns Detected (with Before/After Examples)
+## 35 Patterns Detected (with Before/After Examples)
 
 ### Content Patterns
 
@@ -127,11 +127,11 @@ Rewrites follow a no-fabrication rule: they never add facts, names, dates, or ci
 
 | # | Pattern | Before | After |
 |---|---------|--------|-------|
-| 7 | **AI vocabulary** | "Actually... additionally... testament... landscape... showcasing" | "also... remain common" |
+| 7 | **AI vocabulary** | "Actually... additionally... gated on... quietly... testament... landscape... showcasing" | "also... needs... remain common" |
 | 8 | **Copula avoidance** | "serves as... features... boasts" | "is... has" |
 | 9 | **Negative parallelisms / tailing negations** | "It's not just X, it's Y", "..., no guessing" | State the point directly |
 | 10 | **Rule of three** | "innovation, inspiration, and insights" | Use natural number of items |
-| 11 | **Synonym cycling** | "protagonist... main character... central figure... hero" | "protagonist" (repeat when clearest) |
+| 11 | **Synonym cycling / repeated openings** | "protagonist... main character... hero" or "She noted... She noted... She filed..." | Settle on one referent; merge the repeated run |
 | 12 | **False ranges** | "from the Big Bang to dark matter" | List topics directly |
 | 13 | **Passive voice / subjectless fragments** | "No configuration file needed" | Name the actor when it helps clarity |
 
@@ -147,12 +147,14 @@ Rewrites follow a no-fabrication rule: they never add facts, names, dates, or ci
 | 19 | **Curly quotes** | `said “the project”` | `said "the project"` |
 | 26 | **Hyphenated word pairs** | “cross-functional, data-driven, client-facing” | Drop hyphens on common word pairs |
 | 27 | **Persuasive authority tropes** | "At its core, what matters is..." | State the point directly |
-| 28 | **Signposting announcements** | "Let's dive in", "Here's what you need to know" | Start with the content |
+| 28 | **Signposting announcements** | "Let's dive in", or casual "one thing that bit me, heads up on X" | Start with the content, drop the announcement entirely |
 | 29 | **Fragmented headers** | "## Performance" + "Speed matters." | Let the heading do the work |
 | 30 | **Diff-anchored writing** | "This function was added to replace..." | Describe what it does, not what changed |
 | 31 | **Manufactured punchlines / staccato drama** | "It had no preference. No prior. No nostalgia." | Use varied sentence lengths and concrete claims |
 | 32 | **Aphorism formulas** | "Symmetry is the language of trust" | Replace the formula with the actual claim |
 | 33 | **Conversational rhetorical openers** | "Honestly? It depends..." | Remove the fake-candid setup |
+| 34 | **Shadowboxing** | "This isn't mainly about prompt length..." | Cut the unraised objection; restate any claim it concedes |
+| 35 | **Editorial scar tissue** | "A tempting option would be to..., but" | Cut the phantom alternative; keep options a reader would actually weigh |
 
 ### Communication Patterns
 
@@ -207,6 +209,9 @@ Rewrites follow a no-fabrication rule: they never add facts, names, dates, or ci
 
 ## Version History
 
+- **2.10.1** - Added `gate` / `gated` / `gating` to §7 when used figuratively as the default metaphor for ordinary prerequisites, while preserving established technical uses such as feature gating and CI quality gates. No change to the 35 patterns.
+- **2.10.0** - Added patterns #34 (shadowboxing) and #35 (editorial scar tissue) for drafting-conversation residue: unattributed meta-level negations answering objections nobody raised, and phantom "tempting alternative" rebuttals recycled from the model's own corrected mistakes. Both come with false-positive guards protecting real disclaimers, scoping statements, engaged objections, and alternatives a reader would actually weigh (fixes #198). Also expanded #24 to catch accumulated fairness clauses from iterative editing, and changed the revision step to rewrite from the point rather than patch flagged phrases, since patches are how scar tissue forms. 35 patterns total.
+- **2.9.2** - Extended pattern #11 to cover repeated sentence openings, with a deliberate-anaphora guard (fixes #206). Broadened §28 so casual rewordings of signposting are still treated as announcements rather than fixes. No change to the 33 patterns.
 - **2.9.1** - Improved distribution and portability: removed nonportable frontmatter and tool preapprovals, made global installation the documented default, added package validation, and removed the duplicated long-form example from the runtime prompt. No change to the 33 patterns.
 - **2.9.0** - Added a no-fabrication rule: rewrites may not invent facts, names, dates, or citations not present in the source, and every example that modeled invented specifics was re-cut to use only source information (fixes #187). Replaced paragraph-count parity with an information-over-shape rule, made a user's voice sample outrank the em dash ban, and added invocation modes (pasted text / file / embedded). No change to the 33 patterns.
 - **2.8.3** - Moved the skill version from the unsupported top-level frontmatter key to `metadata.version` for Agent Skills and Claude compatibility. No change to the 33 patterns.

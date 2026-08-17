@@ -9,7 +9,7 @@ description: |
   voice, negative parallelisms, and filler phrases.
 license: MIT
 metadata:
-  version: "2.9.1"
+  version: "2.10.1"
 ---
 
 # Humanizer: Remove AI Writing Patterns
@@ -111,7 +111,7 @@ When voice is appropriate, avoid uniform sentence structures, bloodless neutrali
 
 ### 7. Overused "AI Vocabulary" Words
 
-**High-frequency AI words:** Actually, additionally, align with, crucial, delve, emphasizing, enduring, enhance, fostering, garner, highlight (verb), interplay, intricate/intricacies, key (adjective), landscape (abstract noun), pivotal, showcase, tapestry (abstract noun), testament, underscore (verb), valuable, vibrant
+**High-frequency AI words:** Actually, additionally, align with, crucial, delve, emphasizing, enduring, enhance, fostering, garner, gate/gated/gating (figurative; preserve established technical usage), highlight (verb), interplay, intricate/intricacies, key (adjective), landscape (abstract noun), pivotal, quietly, showcase, tapestry (abstract noun), testament, underscore (verb), valuable, vibrant
 **Problem:** These words appear far more frequently in post-2023 text. They often co-occur.
 **Before:**
 > Additionally, a distinctive feature of Somali cuisine is the incorporation of camel meat. An enduring testament to Italian colonial influence is the widespread adoption of pasta in the local culinary landscape, showcasing how these dishes have integrated into the traditional diet.
@@ -145,12 +145,18 @@ When voice is appropriate, avoid uniform sentence structures, bloodless neutrali
 **After:**
 > The event includes talks and panels. There's also time for informal networking between sessions.
 
-### 11. Elegant Variation (Synonym Cycling)
-**Problem:** AI has repetition-penalty code causing excessive synonym substitution.
-**Before:**
+### 11. Elegant Variation and Repeated Sentence Openings
+**Problem:** AI has repetition-penalty code causing excessive synonym substitution. The same machinery misses in the other direction in narrative prose, where consecutive sentences all open on the same subject, usually a pronoun, and nothing varies where the sentence starts. Both are one defect: the model is managing repetition by rule instead of by ear. Cure over-variation by settling on a single referent. Cure under-variation by merging the sentences, by giving the subject role to something other than the character, or by opening on the action so the pronoun arrives later.
+**Before (synonym cycling):**
 > The protagonist faces many challenges. The main character must overcome obstacles. The central figure eventually triumphs. The hero returns home.
 **After:**
 > The protagonist faces many challenges but eventually triumphs and returns home.
+**Before (repeated openings):**
+> She noted the door. She noted the lock on it. She filed both away.
+**After:**
+> She noted the door and its lock, then filed both away.
+
+The fix is not banning the repeated word. A run of three sentences becoming one is what removes the tell; the survivor may still start with "She."
 
 ### 12. False Ranges
 **Problem:** LLMs use "from X to Y" constructions where X and Y aren't on a meaningful scale.
@@ -265,7 +271,9 @@ Before returning the final rewrite, scan it for `—` and `–`. Any hit means t
 - "It is important to note that the data shows" → "The data shows"
 
 ### 24. Excessive Hedging
-**Problem:** Over-qualifying statements.
+
+**Phrases to watch:** to be fair, it's also possible, could potentially, might arguably, in some cases it may, this is an inference
+**Problem:** Over-qualifying statements. Iterative editing compounds this: each pass softens an overstatement, then softens the qualifier, until nearly every conclusion carries a fairness clause and the prose reads like it was negotiated. A claim earns one honest qualifier at most; a caveat that exists only because an earlier draft overreached should be cut along with the overreach.
 **Before:**
 > It could potentially possibly be argued that the policy might have some effect on outcomes.
 **After:**
@@ -298,12 +306,16 @@ Before returning the final rewrite, scan it for `—` and `–`. Any hit means t
 
 ### 28. Signposting and Announcements
 
-**Phrases to watch:** Let's dive in, let's explore, let's break this down, here's what you need to know, now let's look at, without further ado
-**Problem:** LLMs announce what they are about to do instead of doing it. This meta-commentary slows the writing down and gives it a tutorial-script feel.
+**Phrases to watch:** Let's dive in, let's explore, let's break this down, here's what you need to know, now let's look at, without further ado. The tell is structural, not just formal: announcing what's about to be said or warned about instead of just saying it. That survives a casual reword just as easily — heads up, quick note, one thing that got me was X so watch out for Y, before I forget.
+**Problem:** LLMs announce what they are about to do instead of doing it. This meta-commentary slows the writing down and gives it a tutorial-script feel. Recasing the announcement into casual language ("one thing that bit me, so heads up on X") is not a fix, it's the same tell in different clothes — the announcement itself has to go, not just its formality.
 **Before:**
 > Let's dive into how caching works in Next.js. Here's what you need to know.
 **After:**
 > Next.js caches data at multiple layers, including request memoization, the data cache, and the router cache.
+**Before (casual register):**
+> One thing that bit me hard, so pay attention to this part: the webpack dev server doesn't send the CORS header by default.
+**After:**
+> The webpack dev server doesn't send the CORS header by default.
 
 ### 29. Fragmented Headers
 
@@ -352,6 +364,28 @@ Before returning the final rewrite, scan it for `—` and `–`. Any hit means t
 **After:**
 > Whether it's worth the price depends on how often you'll use it.
 
+### 34. Shadowboxing (Defending Against Unraised Objections)
+
+**Phrases to watch:** This isn't (mainly/really) about, I'm not saying/arguing/trying to, To be clear, Don't get me wrong, This is not to say, You could argue/frame this differently but, Some might say... but
+**Problem:** LLMs rebut objections nobody in the published text raised, usually leftovers from the drafting conversation. The tell is a negation about the piece's own aims or the author's intent that is unattributed, dropped within a sentence, and about a topic that appears nowhere else in the piece. An object-level negation ("the API is not thread-safe") is a claim, not shadowboxing.
+**Before:**
+> This isn't mainly about prompt length, and I'm not arguing that documentation doesn't matter. You could categorize the problem another way, but the issue is whether the agent can use the instruction when it acts.
+**After:**
+> The issue is whether the agent can use the instruction when it acts.
+
+(Cut only the defensive clause and leave the surrounding argument alone. A defense can smuggle in a real claim: if "I'm not arguing documentation doesn't matter" concedes a point the piece actually uses, restate it affirmatively instead of deleting it. An objection the text attributes to someone or genuinely engages stays; §9 governs its phrasing.)
+
+### 35. Editorial Scar Tissue (Phantom Alternatives)
+
+**Phrases to watch:** A tempting option/approach would be, One might be tempted to, An obvious approach would be, You might think... but, It would be easy to just, Some would suggest
+**Problem:** The model recycles its own corrected mistakes as strawmen: mid-argument the text rebuts a "tempting" alternative no reader would consider, drops it, then does it again later on an unrelated tangent. Each digression is a scar from the drafting conversation, where the option was live until a human killed it. The tells: the alternative is attributed to no one, appears nowhere else in the piece, and is dismissed in a clause or two.
+**Before:**
+> Session tokens are rotated every 24 hours. A tempting approach would be to rotate them by restarting the auth service on a cron job, but that would drop every active session. Rotation happens in place, and clients refresh transparently.
+**After:**
+> Session tokens are rotated every 24 hours, in place, and clients refresh transparently.
+
+(Cut the whole digression and let the surrounding sentences rejoin; if the rebuttal smuggles in a real constraint the piece uses, restate it affirmatively. One phantom rebuttal is ambiguous; several on unrelated tangents is the confession. The general test: if you can explain which previous edit caused a sentence to exist, rather than what new information it contributes, it is scar tissue — rewrite the paragraph from its point instead of patching the sentence.)
+
 ## DETECTION GUIDANCE
 
 ### What NOT to flag (false positives)
@@ -367,7 +401,10 @@ A clean human writer can hit several of the patterns above without any AI involv
 - **Curly quotes alone.** macOS, Word, Google Docs, and most CMSes auto-curl by default. Curly quotes only count when stacked with other tells.
 - **Em dashes alone.** Many editors and journalists use them often. Em dashes are evidence only when paired with formulaic sales-y rhythm.
 - **One short emphatic sentence.** Humans use clipped sentences to land a point. Flag staccato drama only when several short fragments appear in a row and inflate the tone.
+- **Deliberate anaphora.** Repeating a sentence opening on purpose is an old device, and good prose uses it to build cadence or pressure ("She came. She saw. She conquered."). Flag a repeated opening only when the run does no rhetorical work and reads as the model failing to vary rather than a writer choosing.
 - **"Honestly" or "look" mid-sentence.** These are ordinary in casual writing. The tell is the standalone theatrical opener, not the word itself.
+- **Disclaimers and scoping that do real work.** "This guide does not cover Windows," legal and safety notices, and corrections of misconceptions readers actually hold are content, not shadowboxing (§34). So are attributed objections the text engages, replies and FAQs that answer someone by design, and a single self-aware aside in a voiced piece.
+- **Alternatives a reader would actually reach for.** Design docs weighing real options, tutorials warning against genuinely tempting mistakes, and essays that steelman before disagreeing are content, not scar tissue (§35). The tell is the implausible alternative dispatched mid-flow and never revisited.
 - **Unsourced claims.** Most of the web is unsourced. Lack of citations doesn't prove anything.
 - **Correct, complex formatting.** Visual editors and templates produce clean output without any AI.
 - **Secondhand text.** Do not rewrite watched phrases inside quotations, titles, proper names, or examples where the phrase is being discussed rather than used.
@@ -401,7 +438,7 @@ When you see these, lean toward leaving the prose alone — they are evidence of
 1. Read the input carefully and identify every instance of the patterns above.
 2. Write a **draft rewrite**. Check that it reads naturally aloud, varies sentence length, prefers specific details and simple constructions (is/are/has), and keeps the appropriate register.
 3. Ask two questions: **"What makes the below so obviously AI generated?"** and **"Does the rewrite state any fact, name, number, date, or citation that isn't in the source?"** Answer briefly. A fabrication is a defect even when it sounds more human than the vague original.
-4. Revise into a **final rewrite** that addresses them and contains no em or en dashes (see §14).
+4. Revise into a **final rewrite** that addresses them and contains no em or en dashes (see §14). Revise by re-saying the point, not by patching the flagged phrase: a patch that leaves the sentence heavier than a person would write it is new scar tissue (§35), and enough of them make the prose read as cross-examined. When a sentence resists repair, ask "how would a person naturally make this point?" and rewrite the paragraph from that.
 
 In pasted-text mode, deliver the draft, the brief "still-AI" bullets, the final rewrite, and (optionally) a short summary of changes. In file and embedded modes, run the same loop but deliver only what the mode calls for (see Invocation Modes).
 
