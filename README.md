@@ -81,6 +81,11 @@
 
 | 技能                    | 说明                                                     |
 | ----------------------- | -------------------------------------------------------- |
+| `competitive-landscape` | 分析多个竞品与市场领导者，识别内容、关键词、外链和战略缺口 |
+| `competitor-analysis`   | 深入分析单个竞品的自然搜索表现、关键词、内容与外链        |
+| `keyword-clustering`    | 按搜索意图聚类关键词，并映射到现有或规划页面              |
+| `keyword-research`      | 发现关键词机会，评估指标与 SERP，并保存高价值关键词       |
+| `link-prospecting`      | 发现外链机会、联系路径，并根据搜索与外链信号起草外联内容   |
 | `programmatic-seo`     | 使用模板和数据批量创建 SEO 页面                          |
 | `seo`                  | 综合 SEO 分析、审计、技术与内容优化                       |
 | `seo-ahrefs`             | Ahrefs 数据接入与 SEO 分析                                |
@@ -88,6 +93,7 @@
 | `seo-bing`               | Bing Webmaster Tools 数据接入                             |
 | `seo-backlinks`        | 外链画像、毒链检测、竞品外链差距与链接建设分析             |
 | `seo-cluster`          | SEO 主题集群与内容规划                                   |
+| `seo-coach`            | SEO 教练模式，解释工作流、推荐下一步并指导工具使用         |
 | `seo-competitor-pages` | 竞品页面与竞品 SEO 分析                                  |
 | `seo-content`          | SEO 内容分析、优化与创作                                 |
 | `seo-dataforseo`       | 通过 DataForSEO 获取关键词、SERP 与 SEO 数据              |
@@ -106,6 +112,7 @@
 | `seo-performance`      | Core Web Vitals、Lighthouse 与性能审计                    |
 | `seo-plan`             | SEO 策略、路线图与执行计划                                |
 | `seo-profound`         | Profound AI 搜索与 GEO 数据接入                           |
+| `seo-project-setup`    | 建立持久化 SEO 项目工作区、上下文、目标与数据接入          |
 | `seo-programmatic`     | 程序化 SEO 页面与规模化落地页建设                         |
 | `seo-schema`           | Schema.org、JSON-LD 与结构化数据                         |
 | `seo-seranking`        | SE Ranking 数据接入与排名分析                            |
@@ -147,7 +154,7 @@
 | `skill-creator`  | 创建新技能、修改/改进现有技能、测量技能性能，支持评估和迭代                           |
 | `find-skills`    | 搜索和安装开放技能生态中的技能包，帮助发现可扩展的 Agent 能力                         |
 | `dirs-submit`    | ship CLI，封装 aidirs.org 和 backlinkdirs.com 的登录、预览、提交与自更新流程        |
-| `repo-analyzer`  | 分析代码仓库的架构、技术栈、核心模块和风险，生成结构化项目分析报告（Markdown + HTML） |
+| `simple-issue-description` | 将零散的缺陷、需求或 PR 说明整理成简短、聚焦问题与预期行为的 issue             |
 | `domain-handler` | 域名注册/查询与 Cloudflare DNS 自动接入工作流，统一处理 Spaceship、Cloudflare、Vercel 等域名相关操作 |
 | `add-locale` | 添加或补齐 Humanizer locale，本地化覆盖、注册表、共享引擎和测试需达到完整 parity |
 | `mkfast-env-init` | 初始化 mkfast-template 及其 fork 的环境变量，避免乱造 key、混用 build/runtime config 或覆盖 secrets |
