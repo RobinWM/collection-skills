@@ -694,6 +694,78 @@
       "skillFolderHash": "bf5294e819e64cd6daf5edd8289a2288a344c349",
       "installedAt": "2026-07-17T06:27:45.476Z",
       "updatedAt": "2026-07-17T06:27:45.476Z"
+    },
+    "competitive-landscape": {
+      "source": "every-app/open-seo",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/every-app/open-seo.git",
+      "skillPath": ".agents/skills/competitive-landscape/SKILL.md",
+      "skillFolderHash": "f52383504a2a5ff8e66d9117881a61d8394b5c2c",
+      "installedAt": "2026-08-17T06:17:08.328Z",
+      "updatedAt": "2026-08-17T06:17:08.328Z"
+    },
+    "competitor-analysis": {
+      "source": "every-app/open-seo",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/every-app/open-seo.git",
+      "skillPath": ".agents/skills/competitor-analysis/SKILL.md",
+      "skillFolderHash": "7a29e3ccb6abd10b778f28758bcc04f697b6b4f3",
+      "installedAt": "2026-08-17T06:17:08.332Z",
+      "updatedAt": "2026-08-17T06:17:08.332Z"
+    },
+    "keyword-clustering": {
+      "source": "every-app/open-seo",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/every-app/open-seo.git",
+      "skillPath": ".agents/skills/keyword-clustering/SKILL.md",
+      "skillFolderHash": "e86705d4b1a12589a4d3a877b5e7bea601269425",
+      "installedAt": "2026-08-17T06:17:08.333Z",
+      "updatedAt": "2026-08-17T06:17:08.333Z"
+    },
+    "keyword-research": {
+      "source": "every-app/open-seo",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/every-app/open-seo.git",
+      "skillPath": ".agents/skills/keyword-research/SKILL.md",
+      "skillFolderHash": "d20956c0e5cae0eba0d7d48996e6ceded3918cb0",
+      "installedAt": "2026-08-17T06:17:08.335Z",
+      "updatedAt": "2026-08-17T06:17:08.335Z"
+    },
+    "link-prospecting": {
+      "source": "every-app/open-seo",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/every-app/open-seo.git",
+      "skillPath": ".agents/skills/link-prospecting/SKILL.md",
+      "skillFolderHash": "af484eaf79cf1d49edfbc8b88646a594883b96e7",
+      "installedAt": "2026-08-17T06:17:08.337Z",
+      "updatedAt": "2026-08-17T06:17:08.337Z"
+    },
+    "seo-coach": {
+      "source": "every-app/open-seo",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/every-app/open-seo.git",
+      "skillPath": ".agents/skills/seo-coach/SKILL.md",
+      "skillFolderHash": "cadc454c55edff46aacdcc9895c9cf81ca0bf51f",
+      "installedAt": "2026-08-17T06:17:08.338Z",
+      "updatedAt": "2026-08-17T06:17:08.338Z"
+    },
+    "seo-project-setup": {
+      "source": "every-app/open-seo",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/every-app/open-seo.git",
+      "skillPath": ".agents/skills/seo-project-setup/SKILL.md",
+      "skillFolderHash": "0cd632dae60cf0adf2f4faf95f27352b4d7d55e8",
+      "installedAt": "2026-08-17T06:17:08.339Z",
+      "updatedAt": "2026-08-17T06:17:08.339Z"
+    },
+    "simple-issue-description": {
+      "source": "every-app/open-seo",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/every-app/open-seo.git",
+      "skillPath": ".agents/skills/simple-issue-description/SKILL.md",
+      "skillFolderHash": "1f1ee4febc5829af8b3efbf17cfce97191fbb91f",
+      "installedAt": "2026-08-17T06:17:08.340Z",
+      "updatedAt": "2026-08-17T06:17:08.340Z"
     }
   },
   "dismissed": {
@@ -702,15 +774,16 @@
   "lastSelectedAgents": [
     "amp",
     "antigravity",
+    "antigravity-cli",
     "cline",
     "codex",
     "cursor",
     "deepagents",
-    "firebender",
     "gemini-cli",
     "github-copilot",
-    "kimi-cli",
+    "kimi-code-cli",
     "opencode",
-    "warp"
+    "warp",
+    "zed"
   ]
 }
