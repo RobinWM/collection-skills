@@ -33,9 +33,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
       "skillPath": "skills/agent-browser/SKILL.md",
-      "skillFolderHash": "037e8078db4b20b4aa25c04f21c6de7d335ec449",
+      "skillFolderHash": "82def67855a0d2aad7794207951820fa5422fdb0",
       "installedAt": "2026-04-02T14:08:22.876Z",
-      "updatedAt": "2026-08-17T08:56:44.703Z"
+      "updatedAt": "2026-09-01T02:12:47.762Z"
     },
     "baoyu-article-illustrator": {
       "source": "jimliu/baoyu-skills",
@@ -190,15 +190,6 @@
       "installedAt": "2026-04-02T14:21:56.370Z",
       "updatedAt": "2026-08-17T09:02:26.419Z"
     },
-    "firecrawl": {
-      "source": "firecrawl/cli",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/firecrawl/cli.git",
-      "skillPath": "skills/firecrawl-cli/SKILL.md",
-      "skillFolderHash": "b241cf350214cc3aa3e9efe6922288a21c480306",
-      "installedAt": "2026-04-02T14:25:18.505Z",
-      "updatedAt": "2026-08-17T09:05:28.607Z"
-    },
     "slidev": {
       "source": "antfu/skills",
       "sourceType": "github",
@@ -321,9 +312,10 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/blader/humanizer.git",
       "skillPath": "SKILL.md",
-      "skillFolderHash": "69b33ef4cd747c32fbba072a0335027c1cefd1bb",
+      "skillFolderHash": "e2e92e7b4b8229253ed5c8e81dc65463fdeddda5",
+      "pluginName": "humanizer",
       "installedAt": "2026-04-23T08:47:02.533Z",
-      "updatedAt": "2026-08-17T09:24:58.648Z"
+      "updatedAt": "2026-09-01T02:12:56.618Z"
     },
     "programmatic-seo": {
       "source": "coreyhaines31/marketingskills",
@@ -348,9 +340,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/alchaincyf/huashu-design.git",
       "skillPath": "SKILL.md",
-      "skillFolderHash": "e735935ca0553a32de7ba4ba204fe3c79150b1b8",
+      "skillFolderHash": "a790f704d85f277cc93d2081b0840d00036969bb",
       "installedAt": "2026-04-23T09:05:18.754Z",
-      "updatedAt": "2026-08-17T09:09:51.854Z"
+      "updatedAt": "2026-09-01T02:13:21.263Z"
     },
     "guizang-ppt-skill": {
       "source": "op7418/guizang-ppt-skill",
@@ -366,9 +358,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/pbakaus/impeccable.git",
       "skillPath": ".agents/skills/impeccable/SKILL.md",
-      "skillFolderHash": "c10903ca3e7fe0b1815576f9b67730b588fba665",
+      "skillFolderHash": "6d00b1982c8c05c2c1fbae8e43cefc78c256e215",
       "installedAt": "2026-04-29T06:12:45.300Z",
-      "updatedAt": "2026-08-17T09:10:15.670Z"
+      "updatedAt": "2026-09-01T02:13:45.035Z"
     },
     "domain-handler": {
       "source": "RobinWM/ship-skills",
@@ -402,9 +394,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/Tencent/AgentlyMail.git",
       "skillPath": "skills/SKILL.md",
-      "skillFolderHash": "b048cba7871ce9f050de6551a8adc70d8075fd66",
+      "skillFolderHash": "fb4afa0f123c25e4930eb52d1a7301f47f138b46",
       "installedAt": "2026-06-24T00:51:55.692Z",
-      "updatedAt": "2026-08-17T09:10:34.687Z"
+      "updatedAt": "2026-09-01T02:13:56.523Z"
     },
     "seo": {
       "source": "AgriciDaniel/codex-seo",
@@ -645,108 +637,108 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/AgriciDaniel/claude-seo.git",
       "skillPath": "extensions/ahrefs/skills/seo-ahrefs/SKILL.md",
-      "skillFolderHash": "13f883a344531052c0c449f6faf7c76d5f5410bc",
+      "skillFolderHash": "aea02772df64aed8a9bc51d48b5c06a17693b956",
       "installedAt": "2026-07-17T06:27:45.476Z",
-      "updatedAt": "2026-08-17T09:10:44.377Z"
+      "updatedAt": "2026-09-01T02:14:04.067Z"
     },
     "seo-bing": {
       "source": "AgriciDaniel/claude-seo",
       "sourceType": "github",
       "sourceUrl": "https://github.com/AgriciDaniel/claude-seo.git",
       "skillPath": "extensions/bing-webmaster/skills/seo-bing/SKILL.md",
-      "skillFolderHash": "a3b44efdf12c82be69d4a1aee4936b59ad59e2ed",
+      "skillFolderHash": "e10e468d1a000fc4a872df1964d4a3d3121b8373",
       "installedAt": "2026-07-17T06:27:45.476Z",
-      "updatedAt": "2026-08-17T09:10:51.639Z"
+      "updatedAt": "2026-09-01T02:14:12.123Z"
     },
     "seo-profound": {
       "source": "AgriciDaniel/claude-seo",
       "sourceType": "github",
       "sourceUrl": "https://github.com/AgriciDaniel/claude-seo.git",
       "skillPath": "extensions/profound/skills/seo-profound/SKILL.md",
-      "skillFolderHash": "93d308eb32344a7a09677ffd937ed72ebc91a93a",
+      "skillFolderHash": "ad841c1b2d3c6c91b43cc8fbe07ce8ef2a2d933d",
       "installedAt": "2026-07-17T06:27:45.476Z",
-      "updatedAt": "2026-08-17T09:10:58.487Z"
+      "updatedAt": "2026-09-01T02:14:20.140Z"
     },
     "seo-seranking": {
       "source": "AgriciDaniel/claude-seo",
       "sourceType": "github",
       "sourceUrl": "https://github.com/AgriciDaniel/claude-seo.git",
       "skillPath": "extensions/seranking/skills/seo-seranking/SKILL.md",
-      "skillFolderHash": "3d2769fc12e22a9e7f31fab4c2655620cbbdcf51",
+      "skillFolderHash": "99b7754ddfe0e098f453124acf72b5abafd3d175",
       "installedAt": "2026-07-17T06:27:45.476Z",
-      "updatedAt": "2026-08-17T09:11:06.218Z"
+      "updatedAt": "2026-09-01T02:14:27.564Z"
     },
     "seo-unlighthouse": {
       "source": "AgriciDaniel/claude-seo",
       "sourceType": "github",
       "sourceUrl": "https://github.com/AgriciDaniel/claude-seo.git",
       "skillPath": "extensions/unlighthouse/skills/seo-unlighthouse/SKILL.md",
-      "skillFolderHash": "7480c7fefa9cdcf3fc150fc1f9655496ba0779ed",
+      "skillFolderHash": "02917232b3ab571ec2b6f27f183801ee843a8a04",
       "installedAt": "2026-07-17T06:27:45.476Z",
-      "updatedAt": "2026-08-17T09:11:11.818Z"
+      "updatedAt": "2026-09-01T02:14:37.386Z"
     },
     "competitive-landscape": {
       "source": "every-app/open-seo",
       "sourceType": "github",
       "sourceUrl": "https://github.com/every-app/open-seo.git",
       "skillPath": ".agents/skills/competitive-landscape/SKILL.md",
-      "skillFolderHash": "f52383504a2a5ff8e66d9117881a61d8394b5c2c",
+      "skillFolderHash": "dc3afbd04da915d422a5c938cdb544e676ea80cd",
       "installedAt": "2026-08-17T06:17:08.328Z",
-      "updatedAt": "2026-08-17T09:11:26.553Z"
+      "updatedAt": "2026-09-01T02:18:07.655Z"
     },
     "competitor-analysis": {
       "source": "every-app/open-seo",
       "sourceType": "github",
       "sourceUrl": "https://github.com/every-app/open-seo.git",
       "skillPath": ".agents/skills/competitor-analysis/SKILL.md",
-      "skillFolderHash": "7a29e3ccb6abd10b778f28758bcc04f697b6b4f3",
+      "skillFolderHash": "a814e59fb1298b181fc95616a0952aa089192c60",
       "installedAt": "2026-08-17T06:17:08.332Z",
-      "updatedAt": "2026-08-17T09:11:42.332Z"
+      "updatedAt": "2026-09-01T02:18:16.632Z"
     },
     "keyword-clustering": {
       "source": "every-app/open-seo",
       "sourceType": "github",
       "sourceUrl": "https://github.com/every-app/open-seo.git",
       "skillPath": ".agents/skills/keyword-clustering/SKILL.md",
-      "skillFolderHash": "e86705d4b1a12589a4d3a877b5e7bea601269425",
+      "skillFolderHash": "583f5699fc5db9653e3c3ae41ec1f4f3ea2a7547",
       "installedAt": "2026-08-17T06:17:08.333Z",
-      "updatedAt": "2026-08-17T09:11:51.388Z"
+      "updatedAt": "2026-09-01T02:18:24.219Z"
     },
     "keyword-research": {
       "source": "every-app/open-seo",
       "sourceType": "github",
       "sourceUrl": "https://github.com/every-app/open-seo.git",
       "skillPath": ".agents/skills/keyword-research/SKILL.md",
-      "skillFolderHash": "d20956c0e5cae0eba0d7d48996e6ceded3918cb0",
+      "skillFolderHash": "ec19e3a97648ba4d2efc1f6f03988d3c09105826",
       "installedAt": "2026-08-17T06:17:08.335Z",
-      "updatedAt": "2026-08-17T09:12:04.393Z"
+      "updatedAt": "2026-09-01T02:18:33.468Z"
     },
     "link-prospecting": {
       "source": "every-app/open-seo",
       "sourceType": "github",
       "sourceUrl": "https://github.com/every-app/open-seo.git",
       "skillPath": ".agents/skills/link-prospecting/SKILL.md",
-      "skillFolderHash": "af484eaf79cf1d49edfbc8b88646a594883b96e7",
+      "skillFolderHash": "c4a56e49bb9e461f1a2bf5efb60e310a78d7cfec",
       "installedAt": "2026-08-17T06:17:08.337Z",
-      "updatedAt": "2026-08-17T09:12:21.990Z"
+      "updatedAt": "2026-09-01T02:18:41.572Z"
     },
     "seo-coach": {
       "source": "every-app/open-seo",
       "sourceType": "github",
       "sourceUrl": "https://github.com/every-app/open-seo.git",
       "skillPath": ".agents/skills/seo-coach/SKILL.md",
-      "skillFolderHash": "cadc454c55edff46aacdcc9895c9cf81ca0bf51f",
+      "skillFolderHash": "8ae57b3c59bf9d5fb143c7e74fb1c6e36b2a3711",
       "installedAt": "2026-08-17T06:17:08.338Z",
-      "updatedAt": "2026-08-17T09:25:05.937Z"
+      "updatedAt": "2026-09-01T02:18:49.773Z"
     },
     "seo-project-setup": {
       "source": "every-app/open-seo",
       "sourceType": "github",
       "sourceUrl": "https://github.com/every-app/open-seo.git",
       "skillPath": ".agents/skills/seo-project-setup/SKILL.md",
-      "skillFolderHash": "0cd632dae60cf0adf2f4faf95f27352b4d7d55e8",
+      "skillFolderHash": "af60607912fc68fc9d03e2ee12856cf235c29a10",
       "installedAt": "2026-08-17T06:17:08.339Z",
-      "updatedAt": "2026-08-17T09:25:24.352Z"
+      "updatedAt": "2026-09-01T02:18:57.661Z"
     },
     "simple-issue-description": {
       "source": "every-app/open-seo",
@@ -756,6 +748,97 @@
       "skillFolderHash": "1f1ee4febc5829af8b3efbf17cfce97191fbb91f",
       "installedAt": "2026-08-17T06:17:08.340Z",
       "updatedAt": "2026-08-17T09:25:32.114Z"
+    },
+    "grill-me": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/productivity/grill-me/SKILL.md",
+      "skillFolderHash": "3df14e2d3a89459bf300614be9247e3ce74798f8",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-08-24T01:37:51.089Z",
+      "updatedAt": "2026-08-24T01:37:51.089Z"
+    },
+    "understand": {
+      "source": "Egonex-AI/Understand-Anything",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Egonex-AI/Understand-Anything.git",
+      "skillPath": "understand-anything-plugin/skills/understand/SKILL.md",
+      "skillFolderHash": "71717fe96e8e479809a4acca9ac4c38138cd2331",
+      "installedAt": "2026-08-29T01:18:47.357Z",
+      "updatedAt": "2026-08-29T01:18:47.357Z"
+    },
+    "understand-chat": {
+      "source": "Egonex-AI/Understand-Anything",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Egonex-AI/Understand-Anything.git",
+      "skillPath": "understand-anything-plugin/skills/understand-chat/SKILL.md",
+      "skillFolderHash": "bae3c467b630980e98641995c3b5221033f1af53",
+      "installedAt": "2026-08-29T01:18:47.359Z",
+      "updatedAt": "2026-08-29T01:18:47.359Z"
+    },
+    "understand-dashboard": {
+      "source": "Egonex-AI/Understand-Anything",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Egonex-AI/Understand-Anything.git",
+      "skillPath": "understand-anything-plugin/skills/understand-dashboard/SKILL.md",
+      "skillFolderHash": "78c13dba34205a2e6017da63e2928d16c51d51a4",
+      "installedAt": "2026-08-29T01:18:47.361Z",
+      "updatedAt": "2026-08-29T01:18:47.361Z"
+    },
+    "understand-diff": {
+      "source": "Egonex-AI/Understand-Anything",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Egonex-AI/Understand-Anything.git",
+      "skillPath": "understand-anything-plugin/skills/understand-diff/SKILL.md",
+      "skillFolderHash": "61b952946f0391a63552c1b3df80714cfc354e0d",
+      "installedAt": "2026-08-29T01:18:47.362Z",
+      "updatedAt": "2026-08-29T01:18:47.362Z"
+    },
+    "understand-domain": {
+      "source": "Egonex-AI/Understand-Anything",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Egonex-AI/Understand-Anything.git",
+      "skillPath": "understand-anything-plugin/skills/understand-domain/SKILL.md",
+      "skillFolderHash": "f8cdc13343e3cadd9c9f2f0c3cca90d673dcb49b",
+      "installedAt": "2026-08-29T01:18:47.363Z",
+      "updatedAt": "2026-08-29T01:18:47.363Z"
+    },
+    "understand-explain": {
+      "source": "Egonex-AI/Understand-Anything",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Egonex-AI/Understand-Anything.git",
+      "skillPath": "understand-anything-plugin/skills/understand-explain/SKILL.md",
+      "skillFolderHash": "39341fa100bad0bd4b3f3fa6e6805a59359325e3",
+      "installedAt": "2026-08-29T01:18:47.364Z",
+      "updatedAt": "2026-08-29T01:18:47.364Z"
+    },
+    "understand-figma": {
+      "source": "Egonex-AI/Understand-Anything",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Egonex-AI/Understand-Anything.git",
+      "skillPath": "understand-anything-plugin/skills/understand-figma/SKILL.md",
+      "skillFolderHash": "72ae2d69cd2867157dbb23a18b200e2711e878da",
+      "installedAt": "2026-08-29T01:18:47.366Z",
+      "updatedAt": "2026-08-29T01:18:47.366Z"
+    },
+    "understand-knowledge": {
+      "source": "Egonex-AI/Understand-Anything",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Egonex-AI/Understand-Anything.git",
+      "skillPath": "understand-anything-plugin/skills/understand-knowledge/SKILL.md",
+      "skillFolderHash": "1b837bdc251b653f46d6e4f7e00dc0e347287295",
+      "installedAt": "2026-08-29T01:18:47.367Z",
+      "updatedAt": "2026-08-29T01:18:47.367Z"
+    },
+    "understand-onboard": {
+      "source": "Egonex-AI/Understand-Anything",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Egonex-AI/Understand-Anything.git",
+      "skillPath": "understand-anything-plugin/skills/understand-onboard/SKILL.md",
+      "skillFolderHash": "fc03d9eef0516290d73e883b6048eaeeba9cc165",
+      "installedAt": "2026-08-29T01:18:47.368Z",
+      "updatedAt": "2026-08-29T01:18:47.368Z"
     }
   },
   "dismissed": {
